@@ -1,0 +1,108 @@
+.news-section {
+    margin: 0px 63.2px 0px 0px;
+    padding: 16px 32px 32px;
+    width: 1176px;
+    height: 100%;
+    }
+    
+    .headlines-heading {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 18px;
+    }
+    
+    .news-and-feed-container {
+        display: flex;
+        margin-top: 16px;
+    }
+    
+    .news-container{
+        width: 730.5px;
+    }
+    
+    .fact-check-container {
+        margin-left: 36px;
+        width: 350px;
+        border: 1px solid #dbdbdb;
+        height:fit-content;
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        border: none;
+    }
+    
+    .news-card {
+        height: fit-content;
+        border: 1px solid #dbdbdb;
+        border-radius: 5px;
+        margin-bottom: 16px;
+        display: flex;
+    }
+
+    .news-card:hover{
+        opacity: 0.75;
+    }
+    
+    .fact-check-heading-text {
+        padding: 13px 0px;
+        margin: 0px 16px;
+        font-weight: bold;
+        
+    }
+    
+    .covid-link {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .covid-link:hover{
+        font-weight: bolder;
+    }
+    
+    .facts {
+        margin: 0px 16px;
+        padding: 13px 0px 5px 0px;
+        font-weight: bold;
+        font-size: 14px;
+        border-top: 1px solid #dbdbdb;
+        
+    }
+
+    .facts-source {
+        margin: 0px 16px;
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    
+    .news-card-img {
+        height: 100px;
+        width: 100px;
+        
+        background-size: cover;
+        float: right;
+        padding: 0px;
+        margin: 20px 20px 20px 0;
+        border-radius: 10px;
+    }
+    
+        .news-card-text {
+            height: fit-content;
+            width: calc(100% - 160px);
+            margin: 20px 20px 10px 20px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        .news-source, .news-time{
+            font-weight: normal;
+            font-size: 12px;
+            margin-right: 10px;
+            color:#a9a9a9;
+        }
+    
+        .news-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+
+     

@@ -1,0 +1,99 @@
+
+.Left-nav-bar {
+    height: 100%;
+    width: 264px;
+    margin-top: 16px;
+    border-right: 1px solid  #dbdbdb ;
+    color: #5f6368 !important;
+   
+
+}
+
+.Left-nav-bar > div {
+    padding-bottom: 12px;
+}
+
+.Nav-link {
+    padding-left: 24px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.Nav-link-text{
+    padding-left: 16px;
+}
+
+.covid-19-link {
+    padding: 12px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.covid-19-link > div {
+    padding-left: 9px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.next-9-links {
+    padding: 12px 0px;
+}
+
+.last-links {
+    padding-top: 12px;
+    border-top: 1px solid #dbdbdb;
+    margin-left: 15px;
+    color: #5f6368;
+    
+}
+
+.Nav-link-2 {
+    padding-left: 9px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    color: #5f6368;
+}
+
+.language-and-region {
+    display: flex;
+    flex-direction: row;
+}
+
+.language-text {
+    display: block;
+    font-size: 12px;
+}
+
+.last-icons{
+    padding-left: 10px;
+}
+
+.bottom-text{
+    margin-top: 37px;
+    padding: 16px 16px 16px 4px;
+    font-size: 12px;
+}
+
+.bottom-text > span {
+    padding-right: 8px;
+}
+
+.navigation-links {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Nav-link:hover, .covid-19-link:hover, .Nav-link-2:hover{
+    color: black !important;
+    font-weight: bold;
+}
+
+.Nav-link.active {
+    background-color: #a28a04;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+}
